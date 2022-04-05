@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1018</width>
+    <height>660</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(242, 236, 218)</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout" rowstretch="0,3,25,2">
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout1">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>한컴 윤고딕 240</family>
+             <pointsize>15</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(164, 176, 116)</string>
+           </property>
+           <property name="text">
+            <string>딥러닝 기반 수어 교육</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout2" stretch="1,6">
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout">
+           <property name="spacing">
+            <number>0</number>
+           </property>
+           <property name="leftMargin">
+            <number>20</number>
+           </property>
+           <item>
+            <widget class="QPushButton" name="btn_cate01">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>1 인간         </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate02">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>2 삶            </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate03">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>3 식생활       </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate04">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>4 의생활       </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate05">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>5 주생활       </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate06">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>6 사회생활     </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate07">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>7 경제생활     </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate08">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>8 교육          </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate09">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>9 나라명 및 지명</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate10">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>10 종교           </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate11">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>11 문화           </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate12">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>12 정치와 행정  </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate13">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>13 자연          </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate14">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>14 동식물       </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate15">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>15 개념          </string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="btn_cate16">
+             <property name="sizePolicy">
+              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+               <horstretch>0</horstretch>
+               <verstretch>0</verstretch>
+              </sizepolicy>
+             </property>
+             <property name="font">
+              <font>
+               <family>한컴 윤고딕 230</family>
+              </font>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(66, 65, 6);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+             </property>
+             <property name="text">
+              <string>16 기타          </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <layout class="QVBoxLayout" name="verticalLayout_2" stretch="8,8,1,1">
+           <property name="topMargin">
+            <number>80</number>
+           </property>
+           <property name="bottomMargin">
+            <number>50</number>
+           </property>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,1,1,1,1">
+             <property name="leftMargin">
+              <number>50</number>
+             </property>
+             <property name="topMargin">
+              <number>30</number>
+             </property>
+             <property name="rightMargin">
+              <number>50</number>
+             </property>
+             <property name="bottomMargin">
+              <number>5</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btn_word01">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어01</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word02">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어02</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word03">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어03</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word04">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어04</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word05">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어05</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,1,1,1,1">
+             <property name="leftMargin">
+              <number>50</number>
+             </property>
+             <property name="topMargin">
+              <number>5</number>
+             </property>
+             <property name="rightMargin">
+              <number>50</number>
+             </property>
+             <property name="bottomMargin">
+              <number>30</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btn_word06">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어06</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word07">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어07</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word08">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어08</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word09">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어09</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_word10">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(212, 200, 140)
+}
+
+QPushButton:hover{
+          color: rgb(118, 111, 78);
+          background: transparent;
+          border: 2px solid dark yellow;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>단어10</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <property name="leftMargin">
+              <number>330</number>
+             </property>
+             <property name="rightMargin">
+              <number>330</number>
+             </property>
+             <item>
+              <widget class="QPushButton" name="btn_pre">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(112, 124, 79);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>&lt;</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QPushButton" name="btn_next">
+               <property name="sizePolicy">
+                <sizepolicy hsizetype="MinimumExpanding" vsizetype="MinimumExpanding">
+                 <horstretch>0</horstretch>
+                 <verstretch>0</verstretch>
+                </sizepolicy>
+               </property>
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>11</pointsize>
+                </font>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(112, 124, 79);
+}
+
+QPushButton:hover{
+          color: rgb(66, 65, 6);
+          background: transparent;
+          border: 2px solid dark green;
+          border-radius: 1px;
+}</string>
+               </property>
+               <property name="text">
+                <string>&gt;</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <layout class="QHBoxLayout" name="horizontalLayout_4" stretch="1,1,1">
+             <property name="spacing">
+              <number>0</number>
+             </property>
+             <property name="leftMargin">
+              <number>380</number>
+             </property>
+             <property name="rightMargin">
+              <number>380</number>
+             </property>
+             <item>
+              <widget class="QLabel" name="label_page">
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>1</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>/</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_page_cate">
+               <property name="font">
+                <font>
+                 <family>한컴 윤고딕 230</family>
+                 <pointsize>12</pointsize>
+                </font>
+               </property>
+               <property name="text">
+                <string>5</string>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </item>
+        </layout>
+       </item>
+       <item row="3" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout3" stretch="2,1,2">
+         <item>
+          <widget class="QPushButton" name="btn_learn">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>한컴 윤고딕 230</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(109, 73, 48);
+}
+
+QPushButton:hover{
+          color: rgb(109, 73, 48);
+          background: transparent;
+          border: 2px solid brown;
+          border-radius: 1px;
+}</string>
+           </property>
+           <property name="text">
+            <string>학습</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_mode">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>한컴 윤고딕 230</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(109, 73, 48);
+}
+
+QPushButton:hover{
+          color: rgb(109, 73, 48);
+          background: transparent;
+          border: 2px solid brown;
+          border-radius: 1px;
+}</string>
+           </property>
+           <property name="text">
+            <string>모드 선택</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_quiz">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="palette">
+            <palette>
+             <active>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Button">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Text">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="ButtonText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Base">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Window">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </active>
+             <inactive>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Button">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Text">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="ButtonText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Base">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Window">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </inactive>
+             <disabled>
+              <colorrole role="WindowText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Button">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Text">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="ButtonText">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>255</red>
+                 <green>255</green>
+                 <blue>255</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Base">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+              <colorrole role="Window">
+               <brush brushstyle="SolidPattern">
+                <color alpha="255">
+                 <red>109</red>
+                 <green>73</green>
+                 <blue>48</blue>
+                </color>
+               </brush>
+              </colorrole>
+             </disabled>
+            </palette>
+           </property>
+           <property name="font">
+            <font>
+             <family>한컴 윤고딕 230</family>
+             <pointsize>14</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(109, 73, 48);
+}
+
+QPushButton:hover{
+          color: rgb(109, 73, 48);
+          background: transparent;
+          border: 2px solid brown;
+          border-radius: 1px;
+}</string>
+           </property>
+           <property name="text">
+            <string>퀴즈</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_quiz</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_quiz_function()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>810</x>
+     <y>629</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>810</x>
+     <y>664</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btn_mode</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>btn_mode_function()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>450</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>496</x>
+     <y>652</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>btn_quiz_function()</slot>
+  <slot>btn_mode_function()</slot>
+ </slots>
+</ui>
