@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1018</width>
+    <height>730</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(242, 236, 218)</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout" rowstretch="0,3,27">
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <item row="1" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout1">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="font">
+            <font>
+             <family>한컴산뜻돋움</family>
+             <pointsize>35</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">background-color:rgb(164, 176, 116)</string>
+           </property>
+           <property name="text">
+            <string>딥러닝 기반 수화 교육</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+       <item row="2" column="0">
+        <layout class="QHBoxLayout" name="horizontalLayout2">
+         <property name="spacing">
+          <number>200</number>
+         </property>
+         <property name="leftMargin">
+          <number>150</number>
+         </property>
+         <property name="topMargin">
+          <number>250</number>
+         </property>
+         <property name="rightMargin">
+          <number>150</number>
+         </property>
+         <property name="bottomMargin">
+          <number>250</number>
+         </property>
+         <item>
+          <widget class="QPushButton" name="btn_mode1">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>한컴산뜻돋움</family>
+             <pointsize>60</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(109, 73, 48);
+}
+
+QPushButton:hover{
+          color: rgb(109, 73, 48);
+          background: transparent;
+          border: 2px solid brown;
+          border-radius: 1px;
+}</string>
+           </property>
+           <property name="text">
+            <string>수화
+공부</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_mode2">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Minimum" vsizetype="MinimumExpanding">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="font">
+            <font>
+             <family>한컴산뜻돋움</family>
+             <pointsize>60</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">QPushButton{
+	color: white;
+	background-color: rgb(109, 73, 48);
+}
+
+QPushButton:hover{
+          color: rgb(109, 73, 48);
+          background: transparent;
+          border: 2px solid brown;
+          border-radius: 1px;
+}</string>
+           </property>
+           <property name="text">
+            <string>글자
+공부</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
