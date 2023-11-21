@@ -26,6 +26,7 @@
 <br>
 
 ✔️**기술 스택**
+
 Python, PyQt, Tensorflow Keras, MediaPipe
 <br>
 
