@@ -1,4 +1,4 @@
-# SignLanguage
+# SignLanguage Education
 
 - 동작 인식 수화 퀴즈를 통한 수화 단어 학습 서비스
 - 2인 팀프로젝트
