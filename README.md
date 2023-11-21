@@ -28,6 +28,7 @@
 ✔️**기술 스택**
 
 Python, PyQt, Tensorflow Keras, MediaPipe
+
 <br>
 
 ✔️**시스템 구성도**
